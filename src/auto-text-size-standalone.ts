@@ -252,8 +252,8 @@ export function updateTextSize({
     innerStyles.wordBreak = "break-word";
     // white-space is controlled dynamically in multiline mode
   } else if (mode === "box") {
-    innerStyles.whiteSpace = "pre-wrap";
-    innerStyles.wordBreak = "break-word";
+    innerStyles.whiteSpace = "nowrap";
+    innerStyles.wordBreak = "keep-all";
   }
 
   Object.assign(containerEl.style, containerStyles);
