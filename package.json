@@ -1,7 +1,7 @@
 {
-  "name": "@NoxQ/auto-text-size",
+  "name": "@oldnox/auto-text-size",
   "description": "Make text fit container, prevent overflow and underflow.",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "license": "MIT",
   "homepage": "https://github.com/sanalabs/auto-text-size#readme",
   "repository": {
@@ -33,8 +33,8 @@
     "react": "*"
   },
   "devDependencies": {
-    "@types/node": "18.0.3",
-    "@types/react": "18.0.15",
+    "@types/node": "^18.0.3",
+    "@types/react": "^18.0.15",
     "tsc-watch": "^5.0.3",
     "typescript": "4.7.4"
   },
